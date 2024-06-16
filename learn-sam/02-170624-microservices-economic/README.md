@@ -4,12 +4,12 @@ Deploy Microservices Economic
 Installing
 ---
 
-- Step 1 :
+- Step 1 : Change directory
 ```
 cd bff-ecomo
 ```
 
-- Step 2 :
+- Step 2 : Deploy source code
 ```
 sam deploy --guided --capabilities CAPABILITY_NAMED_IAM
 ```
@@ -78,7 +78,7 @@ Value               https://fi0gip7r30.execute-api.ap-northeast-1.amazonaws.com/
 Successfully created/updated stack - sam-app in ap-northeast-1
 ```
 
-- Step 5 :
+- Step 5 : Copy source code FE to S3
 ```
 cd ..
 cd .\front-ecomo\
@@ -98,7 +98,7 @@ upload: dist\js\chunk-vendors.6d4dcab8.js.map to s3://sam-app-staticbucket-xrelz
 
 - Step 6 : Check services
 
-- Step 7 : 
+- Step 7 : Delete source code
 ```
 sam delete
 ```
