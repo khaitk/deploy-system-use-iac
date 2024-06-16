@@ -17,6 +17,18 @@ Infrastructure System
 | ------- | ---------------------------------------------------- | --------- |
 | 1       | ecs-fargate-vpclink-apigateway                       | [Link](https://github.com/maisheneka/deploy-system-use-iac/tree/develop/ecs-fargate-vpclink-apigateway)     |
 
+Get start
+---
+```
+aws configure
+```
+```
+AWS Access Key ID [*******************]:
+AWS Secret Access Key [****************]:
+Default region name []:
+Default output format [json]:
+```
+
 
 Installing
 ---
