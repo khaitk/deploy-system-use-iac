@@ -1,4 +1,4 @@
-# API Gateway Fargate
+# API Gateway Fargate Low Cost
 
 ## 1. Architecture 
 
