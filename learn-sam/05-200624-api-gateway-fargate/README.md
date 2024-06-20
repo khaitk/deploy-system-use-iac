@@ -1,6 +1,6 @@
 # API Gateway Fargate
 
-1. Architecture 
+## 1. Architecture 
 
 ![image](https://github.com/isynka/deploy-system-use-iac/assets/66162813/86b36ed0-d4b1-4bb5-b30b-c9fcb17cfede)
 
@@ -15,7 +15,7 @@
 - The API Gateway proxies the container's response back to the client on the public internet.
 
 
-2. Getting Start
+## 2. Getting Start
 
 ```
 sam deploy \ --template-file parent.yml \ --stack-name api-gateway-fargate \ --resolve-s3 \ --capabilities CAPABILITY_IAM
@@ -25,7 +25,7 @@ sam deploy \ --template-file parent.yml \ --stack-name api-gateway-fargate \ --r
 sam delete --stack-name api-gateway-fargate
 ```
 
-3. Introduction
+## 3. Introduction
 
 **TIP**
 
