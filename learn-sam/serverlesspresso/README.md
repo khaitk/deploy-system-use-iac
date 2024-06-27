@@ -1,5 +1,7 @@
 # Welcome to the Serverlesspresso workshop!
 
+https://workshop.serverlesscoffee.com/0-introduction.html
+
 Serverlesspresso is a serverless coffee bar exhibit, as seen at AWS re:Invent 2021. This consists of three frontend applications and various backend microservices. This README explains the  process to completely install all the various components.
 
 For workshop instructions, visit the workshop's new instructions site. Learn about the application at https://s12d.com/espresso.
