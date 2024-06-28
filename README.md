@@ -1,4 +1,4 @@
-LEARN IaC
+LEARN Infra
 ---
 
 Introduction
